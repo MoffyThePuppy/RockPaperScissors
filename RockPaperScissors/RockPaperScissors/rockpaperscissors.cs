@@ -44,17 +44,17 @@ namespace RockPaperScissors
 				case 1:
 					if (choice == rock)
 					{
-						Console.WriteLine(choice + " <-you vs. us-> " + rock + ".");
+						Console.WriteLine(choice + " <-you vs. us-> " + rock + "./n");
 						Console.WriteLine("Tie");
 					}
 					else if(choice == paper)
 					{
-						Console.WriteLine(choice + " <-you vs. us-> " + rock + ".");
+						Console.WriteLine(choice + " <-you vs. us-> " + rock + "./n");
 						Console.WriteLine("Winner"); 
 					}
 					else if(choice == scissors)
 					{
-						Console.WriteLine(choice + " <-you vs. us-> " + rock + ".");
+						Console.WriteLine(choice + " <-you vs. us-> " + rock + "./n");
 						Console.WriteLine("Loser");
 					}
 					else
@@ -66,17 +66,17 @@ namespace RockPaperScissors
 				case 2:
 					if (choice == rock)
 					{
-						Console.WriteLine(choice + " <-you vs. us-> " + paper + ".");
+						Console.WriteLine(choice + " <-you vs. us-> " + paper + "./n");
 						Console.WriteLine("Loser");
 					}
 					else if(choice == paper)
 					{
-						Console.WriteLine(choice + " <-you vs. us-> " + paper + ".");
+						Console.WriteLine(choice + " <-you vs. us-> " + paper + "./n");
 						Console.WriteLine("Tie"); 
 					}
 					else if(choice == scissors)
 					{
-						Console.WriteLine(choice + " <-you vs. us-> " + paper + ".");
+						Console.WriteLine(choice + " <-you vs. us-> " + paper + "./n");
 						Console.WriteLine("Winner");
 					}
 					else
@@ -89,17 +89,17 @@ namespace RockPaperScissors
 				default:
 					if (choice == rock)
 					{
-						Console.WriteLine(choice + " <-you vs. us-> " + scissors + ".");
+						Console.WriteLine(choice + " <-you vs. us-> " + scissors + "./n");
 						Console.WriteLine("Winner");
 					}
 					else if(choice == paper)
 					{
-						Console.WriteLine(choice + " <-you vs. us-> " + scissors + ".");
+						Console.WriteLine(choice + " <-you vs. us-> " + scissors + "./n");
 						Console.WriteLine("Loser"); 
 					}
 					else if(choice == scissors)
 					{
-						Console.WriteLine(choice + " <-you vs. us-> " + scissors + ".");
+						Console.WriteLine(choice + " <-you vs. us-> " + scissors + "./n");
 						Console.WriteLine("Tie");
 					}
 					else
